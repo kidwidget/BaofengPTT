@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:BaofengPTT-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -180,8 +181,6 @@ Wire Wire Line
 Wire Wire Line
 	4250 4250 4900 4250
 Wire Wire Line
-	7350 4150 3800 4150
-Wire Wire Line
 	3800 4250 4250 4250
 Connection ~ 4250 4250
 $Comp
@@ -202,4 +201,19 @@ Wire Wire Line
 Wire Wire Line
 	5800 3400 3300 3400
 Connection ~ 5800 3400
+$Comp
+L Device:C C1
+U 1 1 5F2CD361
+P 5350 4150
+F 0 "C1" V 5098 4150 50  0000 C CNN
+F 1 ".1 uF" V 5189 4150 50  0000 C CNN
+F 2 "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal" H 5388 4000 50  0001 C CNN
+F 3 "~" H 5350 4150 50  0001 C CNN
+	1    5350 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7350 4150 5500 4150
+Wire Wire Line
+	5200 4150 3800 4150
 $EndSCHEMATC
