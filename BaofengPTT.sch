@@ -49,8 +49,8 @@ $Comp
 L dk_Barrel-Audio-Connectors:SJ1-3523N CON3
 U 1 1 5F28CB86
 P 7750 2650
-F 0 "CON3" H 7423 2703 60  0000 R CNN
-F 1 "SJ1-3523N" H 7423 2597 60  0000 R CNN
+F 0 "CON3" H 7800 3050 60  0000 R CNN
+F 1 "SJ1-3523N" H 7900 2950 60  0000 R CNN
 F 2 "digikey-footprints:Headphone_Jack_3.5mm_SJ1-3523N" H 7950 2850 60  0001 L CNN
 F 3 "https://www.cui.com/product/resource/digikeypdf/sj1-352xn_series.pdf" H 7950 2950 60  0001 L CNN
 F 4 "CP1-3523N-ND" H 7950 3050 60  0001 L CNN "Digi-Key_PN"
@@ -69,8 +69,8 @@ $Comp
 L dk_Barrel-Audio-Connectors:SJ1-3523N CON4
 U 1 1 5F28CCA2
 P 7750 4150
-F 0 "CON4" H 7423 4203 60  0000 R CNN
-F 1 "SJ1-3523N" H 7423 4097 60  0000 R CNN
+F 0 "CON4" H 7800 4550 60  0000 R CNN
+F 1 "SJ1-3523N" H 7900 4450 60  0000 R CNN
 F 2 "digikey-footprints:Headphone_Jack_3.5mm_SJ1-3523N" H 7950 4350 60  0001 L CNN
 F 3 "https://www.cui.com/product/resource/digikeypdf/sj1-352xn_series.pdf" H 7950 4450 60  0001 L CNN
 F 4 "CP1-3523N-ND" H 7950 4550 60  0001 L CNN "Digi-Key_PN"
@@ -229,4 +229,12 @@ Wire Wire Line
 	3800 4150 4450 4150
 Wire Wire Line
 	4750 4150 6450 4150
+Text Notes 2050 2900 0    50   Italic 10
+To Sound Card - Speaker
+Text Notes 2150 4150 0    50   Italic 10
+To Sound Card - Mic
+Text Notes 8150 2650 0    50   Italic 10
+To Baofeng - 3.5 mm Jack
+Text Notes 8150 4150 0    50   Italic 10
+To Baofeng - 2.5 mm Jack
 $EndSCHEMATC
